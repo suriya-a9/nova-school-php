@@ -29,7 +29,7 @@
         }
 
         .tab button.active {
-            background-color: #4F547B;
+            background-color: #002047;
             color: white;
         }
 
@@ -68,7 +68,7 @@
         }
 
         .faculty-table th {
-            background-color: #4F547B;
+            background-color: #002047;
             color: white;
         }
 
@@ -87,10 +87,10 @@
 
     <main class="main-content">
 
-        <?php include("header.php") ?>
+        <?php include("new-header.php") ?>
 
         <div class="content-wrapper js-content-wrapper pt-50">
-            <section class="pt-80 pb-80 md:pt-60 md:pb-60 bg-purple-6 mt-80">
+            <!-- <section class="pt-80 pb-80 md:pt-60 md:pb-60 bg-purple-6 mt-80">
                 <div class="container">
                     <div class="row y-gap-20 justify-between items-center">
                         <div class="col-xl-6 col-lg-6">
@@ -99,10 +99,11 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> -->
 
             <section class="layout-pt-md layout-pb-lg pt-40 pb-30">
                 <div data-anim-wrap class="container">
+                    <h2 class="text-30 lh-15 text-white">CBSE Details</h2>
                     <div class="tab">
                         <button class="tablinks active" onclick="openTab(event, 'Teaching')">ID DETAIL</button>
                         <button class="tablinks" onclick="openTab(event, 'NonTeaching')">ID CARD DETAILS</button>

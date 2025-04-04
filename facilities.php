@@ -48,7 +48,7 @@
             right: 0;
             top: 0;
             color: white;
-            background: #4F547B;
+            background: #002047;
             padding: 6px 25px;
         }
     </style>
@@ -60,10 +60,10 @@
 
     <main class="main-content">
 
-        <?php include("header.php") ?>
+        <?php include("new-header.php") ?>
 
         <div class="content-wrapper js-content-wrapper pt-50">
-            <section class="pt-80 pb-80 md:pt-60 md:pb-60 bg-purple-6 mt-80">
+            <!-- <section class="pt-80 pb-80 md:pt-60 md:pb-60 bg-purple-6 mt-80">
                 <div class="container">
                     <div class="row y-gap-20 justify-between items-center">
                         <div class="col-xl-6 col-lg-6">
@@ -72,12 +72,12 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> -->
 
             <section class="layout-pt-md layout-pb-lg pt-40 pb-30">
                 <div data-anim-wrap class="container">
                     <div class="row y-gap-50 justify-between">
-                        <h2>Details</h2>
+                        <h2>Facilities Detail</h2>
                     </div>
                     <div class="row y-gap-50 justify-between">
                         <div class="col-md-4 pdf-container">
@@ -123,6 +123,15 @@
                                 <p class="sub-text">Calendar</p>
                             </div>
                             <p class="text-center">Calendar</p>
+                        </div>
+                    </div>
+                    <div class="row y-gap-50 justify-between">
+                        <div class="col-md-4 pdf-container">
+                            <div class="pdf-thumbnail" style="background-image: url('http://localhost/school/img/home-9/fee-structure.jpeg');">
+                                <button class="pdf-button" onclick="window.open('http://localhost/school/img/home-9/fee-structure.jpeg', '_blank')">See PDF</button>
+                                <p class="sub-text">Fee Structure</p>
+                            </div>
+                            <p class="text-center">Fee Structure</p>
                         </div>
                     </div>
                 </div>

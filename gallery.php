@@ -1,3 +1,73 @@
+<?php
+$images = [
+  "img/home-9/IMG-20250316-WA0004.jpg",
+  "img/home-9/IMG-20250316-WA0040.jpg",
+  "img/home-9/IMG-20250316-WA0041.jpg",
+  "img/home-9/IMG-20250316-WA0042.jpg",
+  "img/home-9/IMG-20250316-WA0043.jpg",
+  "img/home-9/IMG-20250316-WA0050.jpg",
+  "img/home-9/IMG-20250316-WA0051.jpg",
+  "img/home-9/IMG-20250316-WA0052.jpg",
+  "img/home-9/IMG-20250316-WA0053.jpg",
+  "img/home-9/IMG-20250316-WA0054.jpg",
+  "img/home-9/IMG-20250316-WA0055.jpg",
+  "img/home-9/IMG-20250316-WA0056.jpg",
+  "img/home-9/IMG-20250316-WA0057.jpg",
+  "img/home-9/IMG-20250316-WA0058.jpg",
+  "img/home-9/IMG-20250316-WA0059.jpg",
+  "img/home-9/IMG-20250316-WA0060.jpg",
+  "img/home-9/IMG-20250316-WA0061.jpg",
+  "img/home-9/IMG-20250316-WA0062.jpg",
+  "img/home-9/IMG-20250316-WA0063.jpg",
+  "img/home-9/IMG-20250316-WA0064.jpg",
+  "img/home-9/IMG-20250316-WA0066.jpg",
+  "img/home-9/IMG-20250316-WA0067.jpg",
+  "img/home-9/IMG-20250316-WA0068.jpg",
+  "img/home-9/IMG-20250316-WA0070.jpg",
+  "img/home-9/IMG-20250316-WA0005.jpg",
+  "img/home-9/IMG-20250316-WA0006.jpg",
+  "img/home-9/IMG-20250316-WA0007.jpg",
+  "img/home-9/IMG-20250316-WA0008.jpg",
+  "img/home-9/IMG-20250316-WA0009.jpg",
+  "img/home-9/IMG-20250316-WA0010.jpg",
+  "img/home-9/IMG-20250316-WA0011.jpg",
+  "img/home-9/IMG-20250316-WA0012.jpg",
+  "img/home-9/IMG-20250316-WA0013.jpg",
+  "img/home-9/IMG-20250316-WA0014.jpg",
+  "img/home-9/IMG-20250316-WA0015.jpg",
+  "img/home-9/IMG-20250316-WA0016.jpg",
+  "img/home-9/IMG-20250316-WA0017.jpg",
+  "img/home-9/IMG-20250316-WA0018.jpg",
+  "img/home-9/IMG-20250316-WA0019.jpg",
+  "img/home-9/IMG-20250316-WA0020.jpg",
+  "img/home-9/IMG-20250316-WA0021.jpg",
+  "img/home-9/IMG-20250316-WA0022.jpg",
+  "img/home-9/IMG-20250316-WA0023.jpg",
+  "img/home-9/IMG-20250316-WA0024.jpg",
+  "img/home-9/IMG-20250316-WA0025.jpg",
+  "img/home-9/IMG-20250316-WA0026.jpg",
+  "img/home-9/IMG-20250316-WA0027.jpg",
+  "img/home-9/IMG-20250316-WA0028.jpg",
+  "img/home-9/IMG-20250316-WA0029.jpg",
+  "img/home-9/IMG-20250316-WA0030.jpg",
+  "img/home-9/IMG-20250316-WA0031.jpg",
+  "img/home-9/IMG-20250316-WA0032.jpg",
+  "img/home-9/IMG-20250316-WA0033.jpg",
+  "img/home-9/IMG-20250316-WA0034.jpg",
+  "img/home-9/IMG-20250316-WA0035.jpg",
+  "img/home-9/IMG-20250316-WA0036.jpg",
+  "img/home-9/IMG-20250316-WA0037.jpg",
+  "img/home-9/IMG-20250316-WA0038.jpg",
+  "img/home-9/IMG-20250316-WA0039.jpg",
+  "img/home-9/IMG-20250316-WA0044.jpg",
+  "img/home-9/IMG-20250316-WA0045.jpg",
+  "img/home-9/IMG-20250316-WA0046.jpg",
+  "img/home-9/IMG-20250316-WA0047.jpg",
+  "img/home-9/IMG-20250316-WA0048.jpg",
+  "img/home-9/IMG-20250316-WA0049.jpg",
+];
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,11 +79,56 @@
     <div class="preloader__bg"></div>
   </div>
 
-  
+
   <div class='scrolltop'>
     <div class='scroll icon'><i class="fa fa-angle-up"></i></div>
- </div>
+  </div>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f8f9fa;
+      margin: 0;
+      padding: 20px;
+    }
 
+    .gallery-container {
+      width: 90%;
+      margin: auto;
+      column-count: 3;
+      column-gap: 15px;
+    }
+
+    .gallery-item {
+      break-inside: avoid;
+      margin-bottom: 15px;
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+
+    .gallery-item img {
+      width: 100%;
+      display: block;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .gallery-item:hover img {
+      transform: scale(1.05);
+    }
+
+    @media (max-width: 768px) {
+      .gallery-container {
+        column-count: 2;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .gallery-container {
+        column-count: 1;
+      }
+    }
+  </style>
   <style>
     .page-header.-type-2 {
       position: relative;
@@ -26,10 +141,10 @@
 
   <main class="main-content">
 
-    <?php include("header.php") ?>
+    <?php include("new-header.php") ?>
 
     <div class="content-wrapper js-content-wrapper pt-50">
-      <section class="pt-80 pb-80 md:pt-60 md:pb-60 bg-purple-6 mt-80" style="background-image: url('img/home_new/Home_Banner_BG.jpg');">
+      <!-- <section class="pt-80 pb-80 md:pt-60 md:pb-60 bg-purple-6 mt-80" style="background-image: url('img/home_new/Home_Banner_BG.jpg');">
         <div class="container">
           <div class="row y-gap-20 justify-between items-center">
             <div class="col-xl-6 col-lg-6">
@@ -41,160 +156,18 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <section class="layout-pt-md layout-pb-lg layout-pb-md" id="gallery_image">
         <div data-anim-wrap class="container">
+          <h2>Gallery</h2>
           <div class="row y-gap-30 justify-center">
-            <div data-anim="slide-up delay-1" class="col-lg-6 col-md-12">
-              <div class="blogCard -type-3">
-                <div class="row y-gap-30 items-center">
-                  <div class="col-lg-7">
-                    <div class="blogCard__image">
-                      <div class="relative mt-20">
-                        <a href="img/home_new/gallery/Gallery_1.jpg" class="d-flex justify-center items-center js-gallery" data-gallery="gallery1">
-                          <img class="w-1/1 rounded-8" src="img/home_new/gallery/Gallery_1.jpg" draggable="false"  alt="image" title="Click to View">
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-5">
-                    <div class="blogCard__content md:pl-0">
-                      <h4 class="blogCard__title text-18 lh-15 text-dark-4 fw-500 mt-15">Eco-Education in Our Lives: We Can Change the Future</h4>
-                      <div class="blogCard__button d-inline-block mt-20">
-                        <a href="contact.php" class="button -sm -purple-3 text-purple-1">
-                          Contact us <i class="icon-arrow-top-right text-12 ml-10"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
+            <div class="gallery-container">
+              <?php foreach ($images as $image): ?>
+                <div class="gallery-item">
+                  <img src="<?php echo $image; ?>" alt="Gallery Image">
                 </div>
-              </div>
-            </div>
-            <div data-anim="slide-up delay-2" class="col-lg-6 col-md-12">
-              <div class="blogCard -type-3">
-                <div class="row y-gap-30 items-center">
-                  <div class="col-lg-7">
-                    <div class="blogCard__image">
-                      <div class="relative mt-20">
-                          <a href="img/home_new/gallery/Gallery_2.jpg" class="d-flex justify-center items-center js-gallery" data-gallery="gallery1">
-                            <img class="w-1/1 rounded-8" src="img/home_new/gallery/Gallery_2.jpg" draggable="false"  alt="image" title="Click to View">
-                          </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-5">
-                    <div class="blogCard__content md:pl-0">
-                      <h4 class="blogCard__title text-18 lh-15 text-dark-4 fw-500 mt-15">Eco-Education in Our Lives: We Can Change the Future</h4>
-                      <div class="blogCard__button d-inline-block mt-20">
-                        <a href="contact.php" class="button -sm -purple-3 text-purple-1">
-                          Contact us <i class="icon-arrow-top-right text-12 ml-10"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div data-anim="slide-up delay-3" class="col-lg-6 col-md-12">
-              <div class="blogCard -type-3">
-                <div class="row y-gap-30 items-center">
-                  <div class="col-lg-7">
-                    <div class="blogCard__image">
-                      <div class="relative mt-20">
-                          <a href="img/home_new/gallery/Gallery_3.jpg" class="d-flex justify-center items-center js-gallery" data-gallery="gallery1">
-                            <img class="w-1/1 rounded-8" src="img/home_new/gallery/Gallery_3.jpg" draggable="false"  alt="image" title="Click to View">
-                          </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-5">
-                    <div class="blogCard__content md:pl-0">
-                      <h4 class="blogCard__title text-18 lh-15 text-dark-4 fw-500 mt-15">Eco-Education in Our Lives: We Can Change the Future</h4>
-                      <div class="blogCard__button d-inline-block mt-20">
-                        <a href="contact.php" class="button -sm -purple-3 text-purple-1">
-                          Contact us <i class="icon-arrow-top-right text-12 ml-10"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div data-anim="slide-up delay-2" class="col-lg-6 col-md-12">
-              <div class="blogCard -type-3">
-                <div class="row y-gap-30 items-center">
-                  <div class="col-lg-7">
-                    <div class="blogCard__image">
-                      <div class="relative mt-20">
-                          <a href="img/home_new/gallery/Gallery_4.jpg" class="d-flex justify-center items-center js-gallery" data-gallery="gallery1">
-                            <img class="w-1/1 rounded-8" src="img/home_new/gallery/Gallery_4.jpg" draggable="false"  alt="image" title="Click to View">
-                          </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-5">
-                    <div class="blogCard__content md:pl-0">
-                      <h4 class="blogCard__title text-18 lh-15 text-dark-4 fw-500 mt-15">Eco-Education in Our Lives: We Can Change the Future</h4>
-                      <div class="blogCard__button d-inline-block mt-20">
-                        <a href="contact.php" class="button -sm -purple-3 text-purple-1">
-                          Contact us <i class="icon-arrow-top-right text-12 ml-10"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div data-anim="slide-up delay-2" class="col-lg-6 col-md-12">
-              <div class="blogCard -type-3">
-                <div class="row y-gap-30 items-center">
-                  <div class="col-lg-7">
-                    <div class="blogCard__image">
-                      <div class="relative mt-20">
-                          <a href="img/home_new/gallery/Gallery_5.jpg" class="d-flex justify-center items-center js-gallery" data-gallery="gallery1">
-                            <img class="w-1/1 rounded-8" src="img/home_new/gallery/Gallery_5.jpg" draggable="false"  alt="image" title="Click to View">
-                          </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-5">
-                    <div class="blogCard__content md:pl-0">
-                      <h4 class="blogCard__title text-18 lh-15 text-dark-4 fw-500 mt-15">Eco-Education in Our Lives: We Can Change the Future</h4>
-                      <div class="blogCard__button d-inline-block mt-20">
-                        <a href="contact.php" class="button -sm -purple-3 text-purple-1">
-                          Contact us <i class="icon-arrow-top-right text-12 ml-10"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div data-anim="slide-up delay-2" class="col-lg-6 col-md-12">
-              <div class="blogCard -type-3">
-                <div class="row y-gap-30 items-center">
-                  <div class="col-lg-7">
-                    <div class="blogCard__image">
-                      <div class="relative mt-20">
-                          <a href="img/home_new/gallery/Gallery_6.jpg" class="d-flex justify-center items-center js-gallery" data-gallery="gallery1">
-                            <img class="w-1/1 rounded-8" src="img/home_new/gallery/Gallery_6.jpg" draggable="false"  alt="image" title="Click to View">
-                          </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-5">
-                    <div class="blogCard__content md:pl-0">
-                      <h4 class="blogCard__title text-18 lh-15 text-dark-4 fw-500 mt-15">Eco-Education in Our Lives: We Can Change the Future</h4>
-                      <div class="blogCard__button d-inline-block mt-20">
-                        <a href="contact.php" class="button -sm -purple-3 text-purple-1">
-                          Contact us <i class="icon-arrow-top-right text-12 ml-10"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <?php endforeach; ?>
             </div>
           </div>
         </div>
