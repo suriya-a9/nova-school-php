@@ -5,7 +5,7 @@ $tabs = [
     "title" => "Nova College of Education",
     "image" => "img/home-9/about-us-tab.webp",
     "content1" => "Nova College of Education, Coimbatore, was established by Alfa Education Trust in the academic year 2008, with the vision of Mr.A.Rangasamy, whose cherished dream was to start a College of Education to achieve high ideals for future teachers.",
-    "content2" => "It is situated in a sprawling campus of 5 acres in Coimbatore, which in many ways is surrounded by a natural ecosystem. Over a period of nine years, totally dedicated to the cause of Education, Nova College of Education has made tremendous contributions to society by finding out a new cadre of teachers who could imbibe a good value system, self-confidence, self-reliance in the future generation through focused, planned, and research-based innovations.",
+    "content2" => "It is situated in a sprawling campus of 5 acres in the Coimbatore which in many ways is surrounded by a natural eco system. Over a period of nine years, totally dedicated to the cause of Education, Nova College of Education has made tremendous contributions to the society by finding out a new cader of teachers who could imbibe a good value system, self-confident, self-reliant in the future generation through focused, planned and research based innovations.",
     "url" => "contact.php"
   ],
   [
@@ -195,7 +195,7 @@ $testimonials = [
       <section class="nova-institution" id="nova-about-institution">
         <div class="container">
           <div class="row">
-            <h2 class="nova-institute-heading">Nova Institution</h2>
+            <h2 class="nova-institute-heading">Nova Educational</h2>
           </div>
           <div class="row">
             <div class="col-md-12">

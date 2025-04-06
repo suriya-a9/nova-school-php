@@ -325,7 +325,7 @@ $events = [
             <section class="nova-institution" id="home-institution">
                 <div class="container">
                     <div class="row">
-                        <h2 class="nova-institute-heading">Nova Institution</h2>
+                        <h2 class="nova-institute-heading">Nova Educational</h2>
                     </div>
                     <div class="row">
                         <div class="col-md-12">

@@ -17694,6 +17694,7 @@ section#nova-about-institution .tab-content .content a {
   color: white;
   -webkit-text-fill-color: white;
   border: none;
+  align-items: center;
   padding: 24px 24px;
   font-size: 18px;
   font-weight: bold;
@@ -17711,6 +17712,7 @@ section#nova-about-institution .tab-content .content a {
   color: white;
   background: linear-gradient(to right, #002047, #3E52AF);
   color: white;
+  align-items: center;
   -webkit-text-fill-color: white;
   border: none;
   padding: 24px 24px;
@@ -18718,11 +18720,13 @@ section.news-events.py-5 .item {
 
 div#vision-about {
   margin-left: -48px;
+  align-items: center;
   margin-top: 10%;
 }
 
 div#mission-about {
   margin-left: -48px;
+  align-items: center;
   margin-top: 5%;
 }
 

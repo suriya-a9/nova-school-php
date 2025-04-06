@@ -125,13 +125,20 @@
                             <p class="text-center">Calendar</p>
                         </div>
                     </div>
-                    <div class="row y-gap-50 justify-between">
+                    <div class="row">
                         <div class="col-md-4 pdf-container">
                             <div class="pdf-thumbnail" style="background-image: url('http://localhost/school/img/home-9/fee-structure.jpeg');">
                                 <button class="pdf-button" onclick="window.open('http://localhost/school/img/home-9/fee-structure.jpeg', '_blank')">See PDF</button>
                                 <p class="sub-text">Fee Structure</p>
                             </div>
                             <p class="text-center">Fee Structure</p>
+                        </div>
+                        <div class="col-md-4 pdf-container">
+                            <div class="pdf-thumbnail" style="background-image: url('http://localhost/school/img/home-9/favicon.webp');">
+                                <button class="pdf-button" onclick="window.open('http://localhost/school/img/home-9/school-website-details-2.docx', '_blank')">See PDF</button>
+                                <p class="sub-text">School Website Details</p>
+                            </div>
+                            <p class="text-center">School Website Details</p>
                         </div>
                     </div>
                 </div>

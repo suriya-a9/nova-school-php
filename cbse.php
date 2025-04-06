@@ -103,15 +103,15 @@
 
             <section class="layout-pt-md layout-pb-lg pt-40 pb-30">
                 <div data-anim-wrap class="container">
-                    <h2 class="text-30 lh-15 text-white">CBSE Details</h2>
+                    <h2 class="text-30 lh-15 text-white">CBSE Student Details</h2>
                     <div class="tab">
-                        <button class="tablinks active" onclick="openTab(event, 'Teaching')">ID DETAIL</button>
-                        <button class="tablinks" onclick="openTab(event, 'NonTeaching')">ID CARD DETAILS</button>
-                        <button class="tablinks" onclick="openTab(event, 'Management')">STUDENT ID</button>
+                        <button class="tablinks active" onclick="openTab(event, 'Teaching')">STUDENT DETAILS</button>
+                        <button class="tablinks" onclick="openTab(event, 'NonTeaching')">STUDENT DETAILS</button>
+                        <button class="tablinks" onclick="openTab(event, 'Management')">STUDENT DETAILS</button>
                     </div>
 
                     <div id="Teaching" class="tabcontent" style="display: block;">
-                        <h3>ID DETAIL</h3>
+                        <h3>STUDENT DETAILS</h3>
                         <table class="faculty-table">
                             <thead>
                                 <tr>
@@ -761,7 +761,7 @@
                     </div>
 
                     <div id="NonTeaching" class="tabcontent">
-                        <h3>ID CARD DETAILS</h3>
+                        <h3>STUDENT DETAILS</h3>
                         <table class="faculty-table">
                             <thead>
                                 <tr>
@@ -1401,7 +1401,7 @@
                     </div>
 
                     <div id="Management" class="tabcontent">
-                        <h3>STUDENT ID</h3>
+                        <h3>STUDENT DETAILS</h3>
                         <table class="faculty-table">
                             <thead>
                                 <tr>
