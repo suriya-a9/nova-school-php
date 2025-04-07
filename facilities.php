@@ -125,7 +125,7 @@
                             <p class="text-center">Calendar</p>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row y-gap-50 justify-between">
                         <div class="col-md-4 pdf-container">
                             <div class="pdf-thumbnail" style="background-image: url('http://localhost/school/img/home-9/fee-structure.jpeg');">
                                 <button class="pdf-button" onclick="window.open('http://localhost/school/img/home-9/fee-structure.jpeg', '_blank')">See PDF</button>
@@ -139,6 +139,22 @@
                                 <p class="sub-text">School Website Details</p>
                             </div>
                             <p class="text-center">School Website Details</p>
+                        </div>
+                        <div class="col-md-4 pdf-container">
+                            <div class="pdf-thumbnail" style="background-image: url('http://localhost/school/img/home-9/favicon.webp');">
+                                <button class="pdf-button" onclick="window.open('http://localhost/school/img/home-9/Mandatory Disclosure Details _ SARAS 6.0.pdf', '_blank')">See PDF</button>
+                                <p class="sub-text">Mandatory Disclosure</p>
+                            </div>
+                            <p class="text-center">Mandatory Disclosure</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 pdf-container">
+                            <div class="pdf-thumbnail" style="background-image: url('http://localhost/school/img/home-9/favicon.webp');">
+                                <button class="pdf-button" onclick="window.open('http://localhost/school/img/home-9/deo letter.pdf', '_blank')">See PDF</button>
+                                <p class="sub-text">DEO Letter</p>
+                            </div>
+                            <p class="text-center">DEO Letter</p>
                         </div>
                     </div>
                 </div>
